@@ -1,0 +1,23 @@
+/* Основной цвет текста  #757575*/
+/* Цвет текста заголовков #212121 */
+/* Цвет текста адреса (почта и тел) rgba(255, 255, 255, 0.6) */
+/* Цвет текста при активности #2196F3 */
+:root {
+  --title-color: #212121;
+  --main-text-color: #757575;
+}
+
+body {
+  width: 1600px;
+  color: var(--main-text-color);
+  background-color: #e5e5e5;
+}
+
+.head {
+  color: var(--title-color);
+  background-color: #ffffff;
+}
+
+.title {
+  color: var(--title-color);
+}
