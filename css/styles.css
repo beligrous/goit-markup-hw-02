@@ -5,19 +5,37 @@
 :root {
   --title-color: #212121;
   --main-text-color: #757575;
+  --activ-text-color: #2196f3;
 }
 
 body {
   width: 1600px;
   color: var(--main-text-color);
-  background-color: #e5e5e5;
-}
-
-.head {
-  color: var(--title-color);
   background-color: #ffffff;
 }
 
 .title {
   color: var(--title-color);
+}
+
+.head .logo {
+  color: #000000;
+}
+
+.head .logo-color {
+  color: #2196f3;
+}
+
+.head .tel-mail {
+  color: var(--main-text-color);
+}
+
+.head .title:hover,
+.head .title:focus {
+  color: var(--activ-text-color);
+}
+
+.head .tel-mail:hover,
+.head .tel-mail:focus {
+  color: var(--activ-text-color);
 }
