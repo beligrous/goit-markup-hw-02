@@ -39,3 +39,12 @@ body {
 .head .tel-mail:focus {
   color: var(--activ-text-color);
 }
+
+.hero {
+  height: 600px;
+  background-color: #757575;
+}
+
+.hero-title {
+  color: #ffffff;
+}
