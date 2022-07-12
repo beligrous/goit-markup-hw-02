@@ -12,22 +12,29 @@ body {
   width: 1600px;
   color: var(--main-text-color);
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
 .title {
   color: var(--title-color);
 }
 
-.head .logo {
+.logo {
   color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
-.head .logo-color {
+.logo-color {
   color: #2196f3;
 }
 
-.head .tel-mail {
+.tel-mail {
   color: var(--main-text-color);
+}
+
+.head-list {
+  list-style: none;
 }
 
 .head .title:hover,
@@ -47,4 +54,6 @@ body {
 
 .hero-title {
   color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 900;
 }
