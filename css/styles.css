@@ -9,11 +9,11 @@
 }
 
 body {
-  width: 1600px;
   color: var(--main-text-color);
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -41,7 +41,6 @@ body {
   font-style: normal;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
 }
 
 .logo-color {
@@ -70,7 +69,6 @@ body {
 /* Герой */
 
 .hero {
-  height: 600px;
   background: #2f303a;
 }
 
@@ -84,8 +82,9 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-button,
-.portfolio-button {
+/* Кнопки */
+
+.hero-button {
   background-color: var(--activ-text-color);
   color: #ffffff;
   font-family: inherit;
@@ -96,11 +95,24 @@ body {
   letter-spacing: 0.06em;
 }
 
+.portfolio-button {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
 .hero-button:hover,
-.hero-button:focus,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: #188ce8;
+  background-color: var(--activ-text-color);
 }
 
 /* Ценности  */
@@ -121,7 +133,6 @@ body {
 .values-title {
   font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
 }
@@ -139,7 +150,6 @@ body {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
@@ -149,7 +159,6 @@ body {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
@@ -158,7 +167,6 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
@@ -166,7 +174,21 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* Образцы работ портфолио */
+
+.work-title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.work-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
   color: var(--main-text-color);
 }
 
@@ -185,13 +207,11 @@ body {
   text-decoration: none;
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .foot-tel-mail {
   text-decoration: none;
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
