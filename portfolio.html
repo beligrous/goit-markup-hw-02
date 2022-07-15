@@ -22,12 +22,14 @@
         >
         <ul class="head-list">
           <li class="list">
-            <a class="title link" href="./index.html">Студия</a>
+            <a class="head-title link" href="./index.html">Студия</a>
           </li>
           <li>
-            <a class="title link current" href="./portfolio.html">Портфолио</a>
+            <a class="head-title link current" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
-          <li><a class="title link" href="">Контакты</a></li>
+          <li class="list"><a class="head-title link" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul class="head-list">
@@ -44,17 +46,27 @@
     <main>
       <!-- Фильтр по работам -->
       <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+        <li class="list">
+          <button class="portfolio-button" type="button">Все</button>
+        </li>
+        <li class="list">
+          <button class="portfolio-button" type="button">Веб-сайты</button>
+        </li>
+        <li class="list">
+          <button class="portfolio-button" type="button">Приложения</button>
+        </li>
+        <li class="list">
+          <button class="portfolio-button" type="button">Дизайн</button>
+        </li>
+        <li class="list">
+          <button class="portfolio-button" type="button">Маркетинг</button>
+        </li>
       </ul>
       <!-- Образцы работ -->
-      <h1 hidden>Образцы выполненных поектов</h1>
+      <h1 class="visually-hidden">Образцы выполненных поектов</h1>
       <ul>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-techno.jpg"
@@ -64,8 +76,8 @@
             <p>Веб-сайт</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-neworleanvsgoldenstar.jpg"
@@ -77,8 +89,8 @@
             <p>Дизайн</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-seafood.jpg"
@@ -88,8 +100,8 @@
             <p>Приложение</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-prime.jpg"
@@ -99,8 +111,8 @@
             <p>Маркетинг</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-boxes.jpg"
@@ -110,8 +122,8 @@
             <p>Приложение</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-inspirationhasnoborders.jpg"
@@ -121,8 +133,8 @@
             <p>Веб-сайт</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-limitededition.jpg"
@@ -134,8 +146,8 @@
             <p>Дизайн</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-lab.jpg"
@@ -145,8 +157,8 @@
             <p>Маркетинг</p></a
           >
         </li>
-        <li>
-          <a href=""
+        <li class="list">
+          <a class="link" href=""
             ><img
               width="370"
               src="./images/portfolio/img-growingbusiness.jpg"
@@ -159,12 +171,18 @@
       </ul>
     </main>
     <!-- Подвал -->
-    <footer>
-      <a href="./index.html" lang="en"><span>Web</span>Studio</a>
-      <address>
+    <footer class="foot">
+      <a class="logo link" href="./index.html" lang="en"
+        ><span class="logo-color logo">Web</span>Studio</a
+      >
+      <address class="foot-address">
         г. Киев, пр-т Леси Украинки, 26 <br />
-        <a href="mailto:info@example.com">info@example.com</a> <br />
-        <a href="tel:+380991111111">+38 099 111 11 11</a> <br />
+        <a class="foot-tel-mail" href="mailto:info@example.com"
+          >info@example.com</a
+        >
+        <br />
+        <a class="foot-tel-mail" href="tel:+380991111111">+38 099 111 11 11</a>
+        <br />
       </address>
     </footer>
   </body>

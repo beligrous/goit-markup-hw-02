@@ -87,7 +87,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-button {
+.hero-button,
+.portfolio-button {
   background-color: var(--activ-text-color);
   color: #ffffff;
   font-family: inherit;
@@ -99,7 +100,9 @@ body {
 }
 
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.portfolio-button:hover,
+.portfolio-button:focus {
   background-color: #188ce8;
 }
 
@@ -114,4 +117,28 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.foot {
+  background-color: #2f303a;
+}
+
+.foot > .logo {
+  color: #ffffff;
+}
+
+.foot-address {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.foot-tel-mail {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
