@@ -93,6 +93,7 @@ body {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .portfolio-button {
@@ -103,6 +104,7 @@ body {
   line-height: calc(26 / 16);
   color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .hero-button:hover,
