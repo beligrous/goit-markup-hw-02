@@ -12,7 +12,6 @@ body {
   color: var(--main-text-color);
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   letter-spacing: 0.03em;
 }
 
@@ -38,7 +37,6 @@ body {
   color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
   line-height: calc(31 / 26);
 }
@@ -58,7 +56,9 @@ body {
 .head-title:hover,
 .head-title:focus,
 .head .tel-mail:hover,
-.head .tel-mail:focus {
+.head .tel-mail:focus,
+.foot-tel-mail:hover,
+.foot-tel-mail:focus {
   color: var(--activ-text-color);
 }
 
@@ -142,7 +142,6 @@ body {
 .values-text {
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
@@ -156,6 +155,10 @@ body {
 }
 
 /*Наша команда */
+
+.team {
+  background-color: #f5f4fa;
+}
 
 .team-title {
   font-size: 36px;
