@@ -114,6 +114,7 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
+  color: #ffffff;
   background-color: var(--activ-text-color);
 }
 
